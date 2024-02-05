@@ -4,10 +4,10 @@
 3. `df -h` displayis information about disk space usage on a system
 4. `wget -P dir URL` downloads files from the internet to the target dir
 5. `tar xpzf filename` extracts files from a compressed tarball in a specific format:
-   * `x` stands for extract;
-   * `p` stands for preserve;
-   * `z` stands for gzip;
-   * `f` specifies the file to be extracted. The following argument after f should be the name of the tarball.
+   	* `x` stands for extract;
+   	* `p` stands for preserve;
+   	* `z` stands for gzip;
+   	* `f` specifies the file to be extracted. The following argument after f should be the name of the tarball.
 6. `su` switches to root user; the default password is `root`
 7. `export PATH=/path/to/your/file:$PATH` adds a dir to PATH
 8. Sometimes you need to set some environment variables for installation. For example, when install nvidia hpc sdk, you need to set the following environment variabls for installation.
@@ -17,13 +17,13 @@
    export NVHPC_INSTALL_TYPE="auto"
    ```
 9. `uname -s` displays the operating system name:
-  * Linux: This indicates that the operating system is a Linux distribution.
-  * Darwin: This indicates that the operating system is macOS.
-  * FreeBSD: This indicates that the operating system is FreeBSD.
+	* Linux: This indicates that the operating system is a Linux distribution.
+  	* Darwin: This indicates that the operating system is macOS.
+  	* FreeBSD: This indicates that the operating system is FreeBSD.
 10. `uname -m` displays the machine hardware name or architecture.
-  * x86_64: This indicates a 64-bit x86 (Intel/AMD) architecture.
-  * i686 or i386: These indicate a 32-bit x86 architecture.
-  * armv7l or similar: These indicate an ARM architecture, with different versions such as ARMv7.
+  	* x86_64: This indicates a 64-bit x86 (Intel/AMD) architecture.
+  	* i686 or i386: These indicate a 32-bit x86 architecture.
+  	* armv7l or similar: These indicate an ARM architecture, with different versions such as ARMv7.
 13. 
 
 # Docker commands
