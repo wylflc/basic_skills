@@ -16,9 +16,18 @@
    export NVHPC_INSTALL_DIR="/opt/nvidia/hpc_sdk"
    export NVHPC_INSTALL_TYPE="auto"
    ```
-9. 
+9. `uname -s` displays the operating system name:
+   * Linux: This indicates that the operating system is a Linux distribution.
+   * Darwin: This indicates that the operating system is macOS.
+   * FreeBSD: This indicates that the operating system is FreeBSD.
+11. `uname -m` displays the machine hardware name or architecture.
+   * x86_64: This indicates a 64-bit x86 (Intel/AMD) architecture.
+   * i686 or i386: These indicate a 32-bit x86 architecture.
+   * armv7l or similar: These indicate an ARM architecture, with different versions such as ARMv7.
+13. 
 
 # Docker commands
 1. `docker inspect container_name | grep -i size` shows the size of a container
 2. `docker start container_name` runs a existing container
 3. `docker attach container_name` enters the terminal of a running container
+4. `docker system df` show you the amount of space used by different Docker components, including images, containers, and volumes.
